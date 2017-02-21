@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Leccion 13</title>
+</head>
+<body>
+  <h1>
+    <center>Formulario de Datos</center>
+  </h1>
+  <form action="">
+    <center>
+      <h3>Nombre</h3>
+    <input type="nombre" name="nombre" required>
+      <br>
+      <h3>Apellido</h3>
+    <input type="apellido" name="apellido" required>
+      <br>
+      <h3>Telefono</h3>
+    <input type="telefono" name="telefono" pattern=".{9,}" required>
+      <h3>Escoge tu carro para continuar</h3>
+    <select name="" id="" required>
+      <option value="">seleciona tu carro</option>
+      <option value="Toyota">Toyota</option>
+      <option value="Mercedes">Mercedes</option>
+      <option value="Nissan">Nissan</option>
+    </select>
+      <br>
+      <h3>Email</h3>
+      <input type="email" name="email" required>
+      <p>
+      <label for="pw">Crea tu contraseña</label><br>
+      <input type="password" name="pw" pattern=".{6,}" title="6 o más caracteres" required>
+      </p>
+
+      <input type="submit" name="" value="Send">
+  </center>
+  </form>
+
+</body>
+</html>
